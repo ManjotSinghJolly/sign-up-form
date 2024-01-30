@@ -24,6 +24,8 @@ a {
 .second-container {
   width: 60vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .background-image {
@@ -54,4 +56,23 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.text-container {
+  background-color: #f9fafb;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 35vh;
+  padding-top: 6.5rem;
+  padding-left: 2rem;
+}
+
+.main-form {
+  height: 30vh;
+}
+
+.create-account {
+  background-color: lightblue;
+  height: 35vh;
 }
