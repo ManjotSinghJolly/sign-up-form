@@ -45,6 +45,7 @@ Welcome to the StudyFeast sign-up form project! This simple web page represents 
 ## Credits
 
 - Background image by [Victoria Shes on Unsplash](https://unsplash.com/@victoriakosmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
+  - [View Image](https://unsplash.com/photos/grilled-meat-and-vegetable-on-the-table-UC0HZdUitWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ## Usage
 

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
-    <title>Sign-up form</title>
+    <script src="script.js" defer></script>
+    <title>StudyFeast Sign-up</title>
   </head>
   <body>
     <div class="form-container">
@@ -58,7 +59,7 @@
                 name="user-password"
                 required
               /><br />
-              <span>*Passwords do not match</span>
+              <span id="passwordMismatch">*Passwords do not match</span>
             </div>
 
             <div>
@@ -83,6 +84,7 @@
                 id="confirm-password"
                 name="confirm-password"
                 required
+                oninput="checkPasswordMatch()"
               />
             </div>
           </form>
