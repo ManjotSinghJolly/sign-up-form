@@ -102,8 +102,17 @@ label {
 }
 
 input {
+  appearance: none;
   width: 200px;
+  height: 25px;
   box-sizing: border-box;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  /* border-color: #e5e7eb; */
+}
+
+input:focus {
+  box-shadow: 3px 5px 12px #888888;
 }
 
 button {
@@ -123,4 +132,13 @@ p {
 
 p a {
   color: #463a38;
+}
+
+span {
+  font-size: 0.6rem;
+  color: red;
+}
+
+input:invalid {
+  border: 1px solid red;
 }

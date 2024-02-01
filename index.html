@@ -52,7 +52,13 @@
                 placeholder="johndoe@example.com"
               /><br />
               <label for="user-password">PASSWORD</label><br />
-              <input type="password" id="user-password" name="user-password" />
+              <input
+                type="password"
+                id="user-password"
+                name="user-password"
+                required
+              /><br />
+              <span>*Passwords do not match</span>
             </div>
 
             <div>
@@ -76,6 +82,7 @@
                 type="password"
                 id="confirm-password"
                 name="confirm-password"
+                required
               />
             </div>
           </form>
